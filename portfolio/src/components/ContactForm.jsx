@@ -35,7 +35,7 @@ function ContactForm() {
             cols="50"
             placeholder="Message"
           ></textarea>
-          <button type="submit">Send a Message</button>
+          <button className={classes.btn} type="submit"><span>Send a Message</span></button>
         </span>
       </form>
     </footer>

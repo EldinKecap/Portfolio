@@ -1,5 +1,4 @@
 import classes from './HeroArea.module.css'
-import K from '../assets/K.svg';
 
 function Hero() {
     return <div className={classes.heroArea}>
