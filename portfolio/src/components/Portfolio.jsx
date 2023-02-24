@@ -28,11 +28,21 @@ function Portfolio() {
         height="700"
         url="https://eldinkecap.github.io"
         title="YouTube Channel Search (interactive)"
-        description="For this project I wanted to implement YouTube API. I used HTML, 
-        MaterializeCSS and JavaScript to allow users to search for channels and redirect
-        them to the YouTube Channels or let them browse through the videos of the selected 
-        channels."
+        description="For this project I wanted to implement YouTube API. To achieve this, 
+        I used HTML, MaterializeCSS and JavaScript to allow users to search for channels 
+        and redirect them to the YouTube Channels or let them browse through the videos 
+        of the selected channels."
         switchSide={false}
+      />
+      <Project
+        height="700"
+        url="https://saltclub.team"
+        title='Extreme sports club "SALT" website'
+        description="The purpose of this website is to promote and showcase our social 
+        infrastructure projects to the public. It has been created using WordPress 
+        and Elementor. Feel free to follow us on social media to stay up-to-date 
+        with our upcoming events."
+        switchSide={true}
       />
     </main>
   );
