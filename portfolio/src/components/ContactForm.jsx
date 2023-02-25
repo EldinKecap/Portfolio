@@ -96,7 +96,6 @@ function ContactForm() {
       );
   };
   return (
-    <footer className={classes.footer}>
       <form ref={form} onSubmit={sendEmail} className={classes.form}>
         <h2>Contact Me</h2>
         <p>
@@ -156,7 +155,6 @@ function ContactForm() {
           </button>
         </span>
       </form>
-    </footer>
   );
 }
 

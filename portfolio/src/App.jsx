@@ -1,6 +1,5 @@
-
 import './App.css';
-import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 import HeroArea from './components/HeroArea';
 import Portfolio from './components/Portfolio';
 
@@ -11,7 +10,7 @@ function App() {
     <div className="App">
       <HeroArea/>
       <Portfolio/>
-      <ContactForm/>
+      <Footer/>
     </div>
   )
 }

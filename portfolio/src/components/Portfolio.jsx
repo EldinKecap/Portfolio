@@ -31,7 +31,7 @@ function Portfolio() {
         description="For this project I wanted to implement YouTube API. To achieve this, 
         I used HTML, MaterializeCSS and JavaScript to allow users to search for channels 
         and redirect them to the YouTube Channels or let them browse through the videos 
-        of the selected channels."
+        of the selected channels. Find your favorite YouTuber."
         switchSide={false}
       />
       <Project
