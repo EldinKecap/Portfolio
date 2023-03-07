@@ -15,7 +15,7 @@ function Portfolio() {
         switchSide={false}
       />
       <Project
-        height="700"
+        height="750"
         url="https://trivia-quiz-app-kecap.netlify.app"
         title="Trivia Quiz App (interactive)"
         description="I used HTML, CSS, JavaScript and TriviQuiz API to create a Trivia
