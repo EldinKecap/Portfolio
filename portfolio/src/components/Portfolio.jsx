@@ -44,6 +44,16 @@ function Portfolio() {
         with our upcoming events."
         switchSide={true}
       />
+      <Project
+        height="700"
+        url="https://hotelmanagementwebsite-e47k.onrender.com"
+        title='Hotel Management website'
+        description="I built this website to practice nodeJS with express framework by building
+        an app that allows for creation and management of user profiles, rooms, and allow for users
+        to be checked in and out of rooms. It has a dedicated admin panel that is designe to be used by
+        hotel staff."
+        switchSide={false}
+      />
     </main>
   );
 }
