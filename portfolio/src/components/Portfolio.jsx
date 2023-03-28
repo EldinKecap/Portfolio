@@ -48,8 +48,8 @@ function Portfolio() {
         height="700"
         url="https://hotelmanagementwebsite-e47k.onrender.com"
         title='Hotel Management website'
-        description="I built this website to practice nodeJS with express framework by building
-        an app that allows for creation and management of user profiles, rooms, and allow for users
+        description="The purpose of creating this website was to enhance my skills in NodeJS and Express framework.
+        This is an app that allows for creation and management of user profiles, rooms, and allow for users
         to be checked in and out of rooms. It has a dedicated admin panel that is designe to be used by
         hotel staff."
         switchSide={false}
