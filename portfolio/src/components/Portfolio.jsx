@@ -46,7 +46,7 @@ function Portfolio() {
       />
       <Project
         height="700"
-        url="https://hotelmanagementwebsite-e47k.onrender.com"
+        url="https://hotelmanagementwebsite.onrender.com"
         title='Hotel Management website'
         description="The purpose of creating this website was to enhance my skills in NodeJS and Express framework.
         This is an app that allows for creation and management of user profiles, rooms, and allow for users
