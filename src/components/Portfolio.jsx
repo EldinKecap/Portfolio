@@ -47,11 +47,30 @@ function Portfolio() {
       <Project
         height="700"
         url="https://hotelmanagementwebsite.onrender.com"
-        title='Hotel Management website'
+        title="Hotel Management website"
         description="The purpose of creating this website was to enhance my skills in NodeJS and Express framework.
         This is an app that allows for creation and management of user profiles, rooms, and allow for users
         to be checked in and out of rooms. It has a dedicated admin panel that is designe to be used by
         hotel staff."
+        switchSide={false}
+      />
+      <Project
+        height="700"
+        url="https://goal-achiever.onrender.com"
+        title="Goal Achiever App"
+        description="I needed an app to track my productivity on many different goals in my life,
+        after trying a few different apps I realised I needed something simple so I created this 
+        app with where I used a calendar inspired by github commit history tracker to show on which days
+        I have completed my goals. For this project I used React for the front end and Firebase for the back end."
+        switchSide={true}
+      />
+      <Project
+        height="700"
+        url="https://langlearnsite.netlify.app"
+        title="LangLearn site"
+        description="This is a language learning platform that is still under construction.
+        This website will be uses spatial repetition algorythm to speed up the progress of learning a new language. 
+        I used ReactJS with MUI library to create the UI and the back end is implemented with Firebase."
         switchSide={false}
       />
     </main>
