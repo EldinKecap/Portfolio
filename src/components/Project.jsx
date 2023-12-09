@@ -17,6 +17,16 @@ function Project(props) {
       <div className={classes.projectDescription}>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
+        <p>
+          Website URL: <a href={props.url}>{props.url}</a>
+        </p>
+        {props.github ? (
+          <p>
+            Github URL: <a href={props.github}>{props.github}</a>
+          </p>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
