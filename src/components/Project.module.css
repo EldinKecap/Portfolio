@@ -14,6 +14,35 @@
   width: 50%;
 }
 
+
+.projectImage img{
+  border-radius: 5%;
+}
+
+.projectImageTitle{
+  position: absolute;
+  color: white;
+  width: 150px;
+  padding-left: 40px ;
+}
+
+.projectImageTint{
+  position: absolute;
+  border-radius: 5%;
+  height: 560px;
+  width: 390px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.projectImage:hover{
+  opacity: 0.5;
+  transition: opacity 1s;
+  border-radius: 5%;
+
+}
+
+
 .projectDescription {
   width: 30vw;
   text-align: justify;

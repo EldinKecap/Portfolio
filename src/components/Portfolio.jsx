@@ -1,11 +1,13 @@
 import classes from "./Portfolio.module.css";
 import Project from "./Project";
+import JokeTyperImage from "../assets/JokeTyper.jpg"
 
 function Portfolio() {
   return (
     <main className={classes.portfolio}>
       <Project
         height="450"
+        image ={JokeTyperImage}
         url="https://superlative-yeot-ef5991.netlify.app"
         github="https://github.com/EldinKecap/TypingApp"
         title="Joke Typing App (interactive)"
@@ -15,7 +17,7 @@ function Portfolio() {
         out any optional input provided by the user at chosen speed."
         switchSide={false}
       />
-      <Project
+      {/* <Project
         height="750"
         url="https://trivia-quiz-app-kecap.netlify.app"
         github="https://github.com/EldinKecap/QuizApp"
@@ -79,7 +81,7 @@ function Portfolio() {
         This website will be uses spatial repetition algorythm to speed up the progress of learning a new language. 
         I used ReactJS with MUI library to create the UI and the back end is implemented with Firebase."
         switchSide={false}
-      />
+      /> */}
     </main>
   );
 }

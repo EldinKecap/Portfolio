@@ -8,12 +8,20 @@ function Project(props) {
         (props.switchSide ? " " + classes.projectContainerSwitchSides : "")
       }
     >
-      <iframe
+      {/* <iframe
         className={classes.projectIframe}
         src={props.url}
         width="350"
         height={props.height}
-      ></iframe>
+      ></iframe> */}
+      <div className={classes.projectImage}>
+        <div className={classes.projectImageTint}></div>
+        <h2 className={classes.projectImageTitle}>{props.title}</h2>
+        <img src={props.image} />
+        <button>
+          Visit site
+        </button>
+      </div>
       <div className={classes.projectDescription}>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
