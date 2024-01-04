@@ -1,10 +1,10 @@
 .projectContainer {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
+  /* width: 90%; */
+  /* margin: auto; */
+  /* display: flex; */
+  /* justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   margin-top: 50px;
 }
 
@@ -14,34 +14,71 @@
   width: 50%;
 }
 
-
-.projectImage img{
-  border-radius: 5%;
+/* PROJECT IMAGE CLASSES */
+.projectImage {
+  position: relative;
+  overflow: hidden;
+  min-width: 330px;
+  min-height: 500px;
+  border-radius: 40px;
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.projectImageTitle{
+.projectImageTint {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.projectImageText {
+  /* text-align: justify; */
   position: absolute;
   color: white;
-  width: 150px;
-  padding-left: 40px ;
+  top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
-.projectImageTint{
+.projectImageTitle {
+  text-align: left;
+}
+
+.projectImageDescription {
+  font-size: 12px;
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.667);
+}
+
+
+.projectImageActions {
   position: absolute;
-  border-radius: 5%;
-  height: 560px;
-  width: 390px;
-  background-color: black;
-  opacity: 0.5;
+  bottom: 30px;
+  left: 40px;
+  display: flex;
+  gap: 7px;
 }
 
-.projectImage:hover{
-  opacity: 0.5;
-  transition: opacity 1s;
-  border-radius: 5%;
-
+.projectImageButton {
+  background-color: rgba(255, 255, 255, 0.609);
+  border-radius: 50px;
+  padding: 4px 10px;
+  font-size: 13px;
 }
 
+.projectImageButton:hover {
+  background-color: gray;
+  transition: background-color 0.3s;
+}
+
+.projectImageButton a, a:visited {
+  color: black;
+}
+
+/* //////////////////// */
 
 .projectDescription {
   width: 30vw;

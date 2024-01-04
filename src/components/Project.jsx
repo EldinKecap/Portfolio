@@ -4,8 +4,9 @@ function Project(props) {
   return (
     <div
       className={
-        classes.projectContainer +
-        (props.switchSide ? " " + classes.projectContainerSwitchSides : "")
+        classes.projectContainer 
+        // +
+        // (props.switchSide ? " " + classes.projectContainerSwitchSides : "")
       }
     >
       {/* <iframe
@@ -14,15 +15,25 @@ function Project(props) {
         width="350"
         height={props.height}
       ></iframe> */}
-      <div className={classes.projectImage}>
+      <div className={classes.projectImage}
+      style={{backgroundImage:`url(${props.image})`}}>
         <div className={classes.projectImageTint}></div>
-        <h2 className={classes.projectImageTitle}>{props.title}</h2>
-        <img src={props.image} />
-        <button>
-          Visit site
-        </button>
+
+        <div className={classes.projectImageText}>
+          <h2 className={classes.projectImageTitle}>{props.title}</h2>
+          <p className={classes.projectImageDescription}>{props.description}</p>
+        </div>
+        
+        <div className={classes.projectImageActions}>
+          <div className={classes.projectImageButton}>
+            <a href={props.url}>Website</a>
+          </div>
+          <div className={classes.projectImageButton}>
+            <a href={props.github}>Github</a>
+          </div>
+        </div>
       </div>
-      <div className={classes.projectDescription}>
+      {/* <div className={classes.projectDescription}>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <p>
@@ -37,11 +48,11 @@ function Project(props) {
             <a href={props.github} target="_blank">
               {props.github}
             </a>
-          </p>
+          </p> 
         ) : (
           <></>
         )}
-      </div>
+      </div>*/}
     </div>
   );
 }

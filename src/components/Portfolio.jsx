@@ -1,6 +1,13 @@
 import classes from "./Portfolio.module.css";
 import Project from "./Project";
 import JokeTyperImage from "../assets/JokeTyper.jpg"
+import TriviaQuizImage from "../assets/TriviaQuiz.jpg"
+import YoutubeSearchImage from "../assets/YoutubeSearch.jpg"
+import SaltSkateboardingImage from "../assets/SaltSkateboarding.jpg"
+import HotelManagementImage from "../assets/HotelManagement.jpg"
+import GoalAchieverImage from "../assets/GoalAchiever.jpg"
+import LangLearnImage from "../assets/LangLearn.jpg"
+
 
 function Portfolio() {
   return (
@@ -10,18 +17,19 @@ function Portfolio() {
         image ={JokeTyperImage}
         url="https://superlative-yeot-ef5991.netlify.app"
         github="https://github.com/EldinKecap/TypingApp"
-        title="Joke Typing App (interactive)"
+        title="Joke Typing App"
         description="This app was created using HTML, CSS, JavaScript and Joke API 
         with a purpose to simulate a real person typing in three different speeds 
         with them making spelling mistakes and correcting them. It will also type 
         out any optional input provided by the user at chosen speed."
         switchSide={false}
       />
-      {/* <Project
+      <Project
         height="750"
+        image={TriviaQuizImage}
         url="https://trivia-quiz-app-kecap.netlify.app"
         github="https://github.com/EldinKecap/QuizApp"
-        title="Trivia Quiz App (interactive)"
+        title="Trivia Quiz App"
         description="I used HTML, CSS, JavaScript and TriviQuiz API to create a Trivia
         Quiz which allows any user to select category, difficulty and a number of 
         questions they want to answer. Questions are time limited and upon completion
@@ -30,9 +38,10 @@ function Portfolio() {
       />
       <Project
         height="700"
+        image={YoutubeSearchImage}
         url="https://eldinkecap.github.io"
         github="https://github.com/EldinKecap/YouTube-Channel-Search"
-        title="YouTube Channel Search (interactive)"
+        title="YouTube Channel Search"
         description="For this project I wanted to implement YouTube API. To achieve this, 
         I used HTML, MaterializeCSS and JavaScript to allow users to search for channels 
         and redirect them to the YouTube Channels or let them browse through the videos 
@@ -42,6 +51,7 @@ function Portfolio() {
       <Project
         height="700"
         url="https://saltclub.team"
+        image={SaltSkateboardingImage}
         github={false}
         title='Extreme sports club "SALT" website'
         description="The purpose of this website is to promote and showcase our social 
@@ -52,6 +62,7 @@ function Portfolio() {
       />
       <Project
         height="700"
+        image={HotelManagementImage}
         url="https://hotelmanagementwebsite.onrender.com"
         title="Hotel Management website"
         github="https://github.com/EldinKecap/HotelManagementWebsite"
@@ -63,6 +74,7 @@ function Portfolio() {
       />
       <Project
         height="700"
+        image={GoalAchieverImage}
         url="https://goal-achiever.onrender.com"
         title="Goal Achiever App"
         github="https://github.com/EldinKecap/GoalTrackingApp"
@@ -74,6 +86,7 @@ function Portfolio() {
       />
       <Project
         height="700"
+        image={LangLearnImage}
         url="https://langlearnsite.netlify.app"
         title="LangLearn site"
         github="https://github.com/EldinKecap/LanguageLearningApp"
@@ -81,7 +94,7 @@ function Portfolio() {
         This website will be uses spatial repetition algorythm to speed up the progress of learning a new language. 
         I used ReactJS with MUI library to create the UI and the back end is implemented with Firebase."
         switchSide={false}
-      /> */}
+      />
     </main>
   );
 }
